@@ -1,0 +1,24 @@
+My program return different return code for different error.
+
+tcp returns:
+enum{
+    SUCCESS,
+    WRONG_USAGE,
+    INPUT_FILE_NOT_FIND,
+    INPUT_IS_A_DIRECTORY,
+    OUTPUT_OPEN_FAIL,
+    NOT_ENOUGH_SPACE,
+    WRITE_ERROR,
+    READ_ERROR
+};
+
+tcpm returns:
+enum{
+    SUCCESS,
+    WRONG_USAGE,
+    INPUT_FILE_NOT_FIND,
+    INPUT_IS_A_DIRECTORY,
+    OUTPUT_OPEN_FAIL,
+    NOT_ENOUGH_SPACE,
+    MMAP_ERROR
+};
